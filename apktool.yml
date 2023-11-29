@@ -1,15 +1,22 @@
 !!brut.androlib.meta.MetaInfo
+version: 2.4.1
 apkFileName: mediatek-telephony-base.jar
-compressionType: false
+isFrameworkApk: false
+usesFramework:
+  ids:
+  tag: null
+sdkInfo:
+  minSdkVersion: 28
+  minSdkVersion: 33
+packageInfo:
+  forcedPackageId: null
+  renameManifestPackage: null
+versionInfo:
+  versionCode: null
+  versionName: null
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
 doNotCompress:
 - classes.dex
 - META-INF/MANIFEST.MF
-isFrameworkApk: false
-packageInfo: null
-sdkInfo: null
-sharedLibrary: false
-sparseResources: false
-unknownFiles: {}
-usesFramework: null
-version: 2.4.1
-versionInfo: null
